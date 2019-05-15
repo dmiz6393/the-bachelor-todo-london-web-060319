@@ -12,7 +12,7 @@ def get_contestant_name(data, occupation)
   array.each do |description| 
     description.each do |key, value| 
       if value== occupation 
-        return 
+        return description["name"]
 end
 
 def count_contestants_by_hometown(data, hometown)
