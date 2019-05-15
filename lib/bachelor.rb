@@ -22,7 +22,7 @@ end
 def count_contestants_by_hometown(data, hometown)
    count = 0
   data.each do |season, array|
-    array.each do |describe|
+    array.each do |description|
       if describe["hometown"] == hometown
           count += 1
       end
